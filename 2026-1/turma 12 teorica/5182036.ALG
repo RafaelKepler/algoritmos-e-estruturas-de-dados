@@ -1,6 +1,6 @@
 algoritmo "Aprovados"
-// Disciplina   : [Linguagem e Lógica de Programação] 
-// Professor   : Antonio Carlos Nicolodi 
+// Disciplina   : [Algoritmo e estrutura de dados] 
+// Professor   : Joao
 
 
 funcao calcularMedia() : real
@@ -23,7 +23,7 @@ inicio
 
 fimfuncao
 
-// prenche o restante do texto com espaço até dar o numero da largura pedido, por exemplo: "ABC" e voce quer preencher ate a largura 5, fica "ABC  ", e escreve no terminal
+// prenche o restante do texto com espaÃ§o atÃ© dar o numero da largura pedido, por exemplo: "ABC" e voce quer preencher ate a largura 5, fica "ABC  ", e escreve no terminal
 procedimento padding(texto: caractere; largura: inteiro)
 
 var
@@ -76,7 +76,7 @@ inicio
   escreval("Digite a quantidade de alunos: ")
   leia(numAlunos)
 
-  //coleta os dados dos alunos e verifica o maior nome e salva seu tamanho(é usado isso para fazer a tabela com os espaçamentos todos corretos)
+  //coleta os dados dos alunos e verifica o maior nome e salva seu tamanho(Ã© usado isso para fazer a tabela com os espaÃ§amentos todos corretos)
 
   para i de 0 ate (numAlunos-1) faca
 
@@ -99,12 +99,12 @@ limpatela()
 // monta a tabela usando logica de contagem de caracteres e quebra de linhas
 desenharLinha(maiorNome+48, "-") //desenha a linha do topo da tabela
 
-//faz o cabeçalho com suas colunas
+//faz o cabeÃ§alho com suas colunas
 escreva("| ")
 padding("NOME", maiorNome+7)
 escreval(" | NOTA         | SITUACAO            |")
 
-//linha que separa o cabeçalho das linhas
+//linha que separa o cabeÃ§alho das linhas
 desenharLinha(maiorNome+48, "-")
 
   para i de 0 ate (numAlunos-1) faca
